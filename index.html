@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login - Home</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="box">
+		<form autocomplete="off">
+			<h2>Entrar</h2>
+			<div class="inputBox">
+				<input type="text" required="required"  action="login.php" method="POST" id="email">
+				<span>Usuário</span>
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<input type="password" required="required" id="senha">
+				<span>Senha</span>
+				<i></i>
+			</div>
+			<div class="links">
+				<a href="#">Esqueceu a Senha ?</a>
+				<a href="#">Cadastre-se</a>
+			</div>
+			<input type="submit" value="Login" id="logar">
+		</form>
+	</div>
+	<div id="msgerro"></div>
+	<script src="./index.js"></script>
+</body>
+</html>
